@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+.bsb-hero-5 {
+	background-position: 50%;
+	background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bsb-overlay {
+	--bsb-overlay-opacity: 0.5;
+	--bsb-overlay-bg-color: var(--bs-black-rgb);
+	position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bsb-overlay>* {
+	position: relative;
+	z-index: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bsb-overlay:after {
+	background-color: rgba(var(--bsb-overlay-bg-color), var(--bsb-overlay-opacity));
+	bottom: 0;
+	content: "";
+	display: block;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.lead {
+	font-size: 1.25rem;
+	font-weight: 300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (min-width: 1200px) {
+	.bsb-hero-5 .container>.row {
+		min-height: 1012px;
+	}
+}
+
+.bsb-hero-5 .container>.row {
+	min-height: 667px;
+}
+
+/* /////////////------Horizontal scroll style-----//////////// */
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+.right-arrow,
+.left-arrow {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--bs-white);
+	background-color: var(--bs-black);
+	font-size: 25px;
+	border-radius: 50%;
+	position: absolute;
+	transform: scale(1, 1);
+	transition: 0.3s all ease-in-out;
+	width: 50px;
+	height: 50px;
+	z-index: 1;
+	bottom: -50px;
+}
+
+
+.react-horizontal-scrolling-menu--scroll-container {
+	margin: 0 -10px;
+}
+
+.react-horizontal-scrolling-menu--inner-wrapper {
+	justify-content: center;
+	align-items: center;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+	transform: scale(0.9);
+}
+
+.bodyPart-card {
+	transform: scale(1, 1);
+	transition: 0.3s all ease-in-out;
+}
+
+.card.bodyPart-card:hover {
+	/* transform: scale(1.1, 1.1); */
+	transform: scale(0.9);
+}
+
+/* .react-horizontal-scrolling-menu--scroll-container {
+	width: 950px;
+} */
+
+.left-arrow,
+.right-arrow {
+	position: static !important;
 }
