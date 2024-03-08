@@ -3,7 +3,7 @@
 ## Demo
 Visit the [Fitinflex](https://fitinflex.netlify.app) to explore the app.
 
-![Fitinflex Screenshot](/src/Assets/Images/fitinflex-cover.png)
+![Fitinflex Screenshot](/src/Assets/Images/fitinflex.png)
 
 ## Introduction
 
