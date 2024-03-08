@@ -1,13 +1,13 @@
-# Fitnflex: Your One-Stop Shop for Fitness Inspiration
+# Fitinflex: Your One-Stop Shop for Fitness Inspiration
 
 ## Demo
-Visit the [Fitnflex](https://fitnflex.netlify.app) to explore the app.
+Visit the [Fitinflex](https://fitinflex.netlify.app) to explore the app.
 
-![Fitnflex Screenshot](/src/Assets/Images/fitnflex-cover.png)
+![Fitinflex Screenshot](/src/Assets/Images/fitinflex-cover.png)
 
 ## Introduction
 
-Welcome to Fitnflex, your all-in-one web app for discovering and learning about various exercises categorized by body parts. Fitnflex not only provides detailed information about each exercise but also allows users to watch related videos on YouTube. With a clean and intuitive user interface, this Progressive Web App (PWA) ensures a seamless experience across all devices.
+Welcome to Fitinflex, your all-in-one web app for discovering and learning about various exercises categorized by body parts. Fitnflex not only provides detailed information about each exercise but also allows users to watch related videos on YouTube. With a clean and intuitive user interface, this Progressive Web App (PWA) ensures a seamless experience across all devices.
 
 ## Features
 
@@ -23,19 +23,19 @@ Welcome to Fitnflex, your all-in-one web app for discovering and learning about 
 
 - **Equipment recommendations:** Get suggestions for the equipment you'll need to perform each exercise, ensuring you have everything you need.
 - **Clean and intuitive UI:** Enjoy a visually appealing and user-friendly interface that makes navigation a breeze.
-- **Progressive Web App (PWA) enabled** Install Fitnflex directly on your device for offline access and a native-like experience.
-- **Fully responsive design:** Access FitnFlex from any device, whether desktop, tablet, or smartphone, with an optimized layout for each screen size.
+- **Progressive Web App (PWA) enabled** Install Fitinflex directly on your device for offline access and a native-like experience.
+- **Fully responsive design:** Access Fitinflex from any device, whether desktop, tablet, or smartphone, with an optimized layout for each screen size.
 
 ## Getting Started
 
-To get started with Fitnflex, follow these simple steps:
+To get started with Fitinflex, follow these simple steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/Fitnflex.git
+   git clone https://github.com/yourusername/Fitinflex.git
 2. **Navigate to the Project Directory:**
    ```bash
-   cd Fitnflex
+   cd Fitinflex
 3. **Install Dependencies:**
    ```bash
    npm install
@@ -43,7 +43,7 @@ To get started with Fitnflex, follow these simple steps:
    ```bash
    npm start
 
-Open your browser and go to http://localhost:3000 to view Fitnflex.
+Open your browser and go to http://localhost:3000 to view Fitinflex.
 
 ## Usage
 
@@ -54,7 +54,7 @@ Open your browser and go to http://localhost:3000 to view Fitnflex.
 
 ## Contributing
 
-We welcome contributions to enhance Fitnflex! Follow these steps to contribute:
+We welcome contributions to enhance Fitinflex! Follow these steps to contribute:
 1. Fork the repository.
 2. Create a new branch:
    ```bash
@@ -74,5 +74,5 @@ We welcome contributions to enhance Fitnflex! Follow these steps to contribute:
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg?logo=javascript&logoColor=#F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![PWA](https://img.shields.io/badge/PWA-Enabled-violet.svg?logo=pwa&logoColor=#5A0FC8)](https://developers.google.com/web/progressive-web-apps/)
 
-Enjoy your fitness journey with Fitnflex! 🏋️‍♀️
+Enjoy your fitness journey with Fitinflex! 🏋️‍♀️
    

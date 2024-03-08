@@ -7,17 +7,17 @@ import Navbar from 'react-bootstrap/Navbar';
 const Header = () => {
 
 	return (
-		<div>
-			<Navbar expand="lg" className="bg-body-tertiary">
+		<>
+			<Navbar expand="lg" className="bg-body-tertiary flex-grow-0">
 				<Container>
-					<Navbar.Brand as={Link} to="/" className='fw-bold fs-4'><i className="bi bi-heart-pulse me-2 "></i>Fitnflex</Navbar.Brand>
+					<Navbar.Brand as={Link} to="/" className='fw-bold fs-4'><i className="bi bi-heart-pulse me-2 "></i>Fitinflex</Navbar.Brand>
 					<Nav className="ms-auto gap-2 flex-row">
 						<Nav.Link as={Link} to="/">Home</Nav.Link>
-						<Nav.Link as={Link} to="/exercise/123">Features</Nav.Link>
+						<Nav.Link as={Link} to="/about">About</Nav.Link>
 					</Nav>
 				</Container>
 			</Navbar>
-		</div>
+		</>
 	)
 }
 export default Header

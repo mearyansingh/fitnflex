@@ -2,7 +2,6 @@ import { Badge, Card, Image, Stack } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 function ExerciseCard({ exercise, isHorizontalScroll }) {
-	console.log(exercise, "exercise")
 
 	return (
 		<>
