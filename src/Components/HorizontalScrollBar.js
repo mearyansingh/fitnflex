@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { Fragment, useContext } from 'react'
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 import BodyPart from './BodyPart'
 import ExerciseCard from './ExerciseCard';
@@ -31,25 +31,27 @@ function HorizontalScrollBar({ data, bodyPart, setBodyPart, isBodyParts }) {
 	return (
 		<>
 			<div className='pt-2'>
-				<ScrollMenu
-					LeftArrow={LeftArrow}
-					RightArrow={RightArrow}
-				>
-					{data.map((item) => (
-						<>{isBodyParts ?
-							<BodyPart
-								key={item?.id || item}
-								itemId={item?.id || item}
-								item={item}
-								bodyPart={bodyPart}
-								setBodyPart={setBodyPart}
-							/>
-							:
-							<ExerciseCard exercise={item} isHorizontalScroll />
-						}
-						</>
-					))}
-				</ScrollMenu>
+				{data?.length &&
+					<ScrollMenu
+						LeftArrow={LeftArrow}
+						RightArrow={RightArrow}
+					>
+						{data?.map((item, index) => (
+							<Fragment key={isBodyParts ? item?.id || index : item?.id || index}>
+								{isBodyParts ?
+									<BodyPart
+										itemId={item?.id || item}
+										item={item}
+										bodyPart={bodyPart}
+										setBodyPart={setBodyPart}
+									/>
+									:
+									<ExerciseCard exercise={item} isHorizontalScroll />
+								}
+							</Fragment>
+						))}
+					</ScrollMenu>
+				}
 			</div>
 		</>
 	)

@@ -1,5 +1,10 @@
 # Fitnflex: Your One-Stop Shop for Fitness Inspiration
 
+## Demo
+Visit the [Fitnflex](https://fitnflex.netlify.app) to explore the app.
+
+![Fitnflex Screenshot](/src/Assets/Images/fitnflex-cover.png)
+
 ## Introduction
 
 Welcome to Fitnflex, your all-in-one web app for discovering and learning about various exercises categorized by body parts. Fitnflex not only provides detailed information about each exercise but also allows users to watch related videos on YouTube. With a clean and intuitive user interface, this Progressive Web App (PWA) ensures a seamless experience across all devices.
